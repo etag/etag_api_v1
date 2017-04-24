@@ -22,6 +22,7 @@ urlpatterns = patterns('',
     url(r'^queue/', include('cybercom_queue.urls')),
     url(r'^data_store/',include('data_store.urls')),
     url(r'^catalog/', include('catalog.urls')),
+    url(r'^etag/', include('etag.urls')),
     # Admin Urls
     url(r'^admin/', include(admin.site.urls)),
     # Main Project View - Customize depending on what Apps are enabled
